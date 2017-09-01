@@ -8,8 +8,8 @@ public class Main {
     {
         System.out.println("Hi! I'll check for you, that your number is a prime number");
         Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt(); //User gives his number
-        int limit = n/2; //limit we'll be divide user's number
+        int n = scanner.nextInt();
+        int limit = n/2;
         boolean isPrime = true;
         String yes = "Number " + n + " is prime";
         String no = "Number " + n + " is not prime";
